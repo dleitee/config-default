@@ -9,6 +9,8 @@ The directory structure must be as follows:
     |-- gulpfile.babel.js
     |-- package.json
     |-- gulp
+    |   |-- gulp-task-1.js
+    |   |-- gulp-task-n.js
     |-- public
     |   |-- index.html
     |   |-- css
