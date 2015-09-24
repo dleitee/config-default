@@ -16,10 +16,7 @@ import gulpLoadPlugins from 'gulp-load-plugins';
   //All loaded plugins
   const $ = gulpLoadPlugins();
 
-  let task = (name) => {
-
-    // Get all arguments for task function and remove first (name)
-    let args = Array.prototype.slice.call(arguments, 1);
+  let task = (name, ...args) => {
 
     // Add gulp and plugins to arguments
     args.unshift(gulp, $);
