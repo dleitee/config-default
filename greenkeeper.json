@@ -1,0 +1,10 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "mocha-example/package.json",
+        "package.json"
+      ]
+    }
+  }
+}
