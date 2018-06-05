@@ -1,4 +1,7 @@
 # config-default
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/dleitee/config-default.svg)](https://greenkeeper.io/)
+
 Repository to save the initial settings of my projects.
 
 ## Directories
